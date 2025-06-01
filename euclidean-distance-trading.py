@@ -12,8 +12,6 @@ import matplotlib.pyplot as plt
 
 from pandas_market_calendars import get_calendar
 from datetime import datetime, timedelta
-from tslearn.metrics import dtw
-from sklearn.metrics import classification_report
 
 polygon_api_key = "KkfCQ7fsZnx0yK4bhX9fD81QplTh0Pf3"
 calendar = get_calendar("NYSE")
